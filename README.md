@@ -1,83 +1,70 @@
 # 🎨 Virtual AI & AR Image Art Gallery
 
-An interactive **Virtual AI & AR Image Art Gallery** built with **React.js** that allows users to explore digital artwork, experience selected artwork in **Augmented Reality (AR)**, and generate AI-inspired artwork through custom prompts.
+An interactive **Virtual AI & AR Image Art Gallery** built with **React.js** that combines digital art, AI-inspired image generation, and browser-based Augmented Reality (AR) experiences. Users can explore artwork, generate AI-inspired art from prompts, and preview artwork in an immersive AR environment.
 
-> 🚀 Developed by **Arpit Tyagi**
-
----
-
-## 🌐 Live Demo
-
-🔗 **Coming Soon...** *(Deployment planned on Vercel.)*
+> 🚀 Built with React while exploring modern frontend development and immersive web technologies.
 
 ---
 
-## 📸 Preview
+## 📸 Project Preview
 
-> Add screenshots or a GIF of your application here.
+### 🖼️ Virtual Art Gallery
 
-### Gallery View
-<img width="100%" alt="Gallery Preview" src="https://via.placeholder.com/1200x650?text=Gallery+Preview">
+> Replace the image below with your actual screenshot.
 
-### AI Art Generator
-<img width="100%" alt="AI Generator Preview" src="https://via.placeholder.com/1200x650?text=AI+Art+Generator">
+![Gallery](./screenshot/gallery-home.png)
 
-### AR Experience
-<img width="100%" alt="AR Preview" src="https://via.placeholder.com/1200x650?text=AR+Experience">
+### 🤖 AI Art Generator
+
+![AI Generator](./screenshot/ai-generator.png)
+
+### 📱 AR Experience
+
+![AR Experience](./screenshot/ar-view.png)
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-## 🖼️ Virtual Art Gallery
+### 🖼️ Virtual Art Gallery
 
 - Responsive gallery layout
-- Beautiful artwork cards
 - Artwork detail modal
 - Category-based filtering
-- Smooth UI animations
-- Mobile-friendly interface
+- Clean and modern UI
+- Smooth user interactions
+- Mobile-friendly design
 
-## 📱 Augmented Reality Experience
+### 🤖 AI Art Generator
 
-- Camera-based AR viewing
-- Interactive artwork selection
-- Real-time artwork overlay
-- Built using **AR.js** and **A-Frame**
-
-## 🤖 AI Art Generator
-
-- Generate artwork using text prompts
-- Multiple art style options
+- Generate AI-inspired artwork using prompts
+- Multiple art style selections
+- Responsive interface
 - Save generated artwork
-- Responsive UI
+
+### 📱 Augmented Reality (AR)
+
+- Camera-based AR experience
+- Interactive artwork selection
+- Browser-based AR using AR.js
+- Built with A-Frame
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-### Frontend
-
-- React.js
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-
-### Libraries & Frameworks
-
-- A-Frame
-- AR.js
-- Three.js
-
-### Development Tools
-
-- npm
-- Git
-- GitHub
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React.js, JavaScript (ES6+) |
+| Styling | HTML5, CSS3 |
+| AR Framework | AR.js, A-Frame |
+| 3D Library | Three.js |
+| Package Manager | npm |
+| Version Control | Git & GitHub |
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 virtual-ai-ar-art-gallery/
@@ -90,7 +77,7 @@ virtual-ai-ar-art-gallery/
 │   │   ├── Navbar.js
 │   │   ├── Gallery.js
 │   │   ├── ARView.js
-│   │   └── AIArtGenerator.js
+│   │   ├── AIArtGenerator.js
 │   │
 │   ├── data/
 │   │   └── artworks.js
@@ -100,6 +87,7 @@ virtual-ai-ar-art-gallery/
 │   ├── index.js
 │   └── index.css
 │
+├── screenshot/
 ├── package.json
 ├── package-lock.json
 ├── README.md
@@ -108,33 +96,40 @@ virtual-ai-ar-art-gallery/
 
 ---
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 
-## 1️⃣ Clone the repository
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+Clone the repository
 
 ```bash
 git clone https://github.com/Arpit-tyagi001/virtual-ai-ar-art-gallery.git
 ```
 
-## 2️⃣ Navigate into the project
+Move into the project folder
 
 ```bash
 cd virtual-ai-ar-art-gallery
 ```
 
-## 3️⃣ Install dependencies
+Install dependencies
 
 ```bash
 npm install
 ```
 
-## 4️⃣ Start the development server
+Start the development server
 
 ```bash
 npm start
 ```
 
-## 5️⃣ Open in browser
+Open your browser
 
 ```
 http://localhost:3000
@@ -142,107 +137,141 @@ http://localhost:3000
 
 ---
 
-# 🎯 Usage
+## 🎯 How to Use
 
-## 🖼️ Gallery
+### 🖼️ Browse Gallery
 
-- Browse the collection of artwork
-- Filter artwork by category
-- Click any artwork to view details
+- Explore digital artwork
+- Filter by categories
+- View artwork details
 
-## 📱 AR View
+### 🤖 Generate AI Art
 
-1. Select an artwork
-2. Start the AR experience
-3. Allow camera permissions
-4. View artwork in augmented reality
+- Enter a text prompt
+- Select an art style
+- Generate artwork
+- Save the generated image
 
-## 🤖 AI Generator
+### 📱 View in AR
 
-1. Enter a prompt
-2. Select an art style
-3. Generate artwork
-4. Save generated artwork
+- Select an artwork
+- Start the AR experience
+- Allow camera permissions
+- Preview artwork in Augmented Reality
 
 ---
 
-# 🧠 AI Integration
+## 📚 What I Learned
 
-The current project demonstrates AI image generation using placeholder images.
+While building this project, I practiced:
 
-Future versions can integrate APIs like:
+- React Components
+- React State Management
+- Props
+- Conditional Rendering
+- Event Handling
+- Responsive UI Design
+- Project Organization
+- Working with External Libraries
+- Browser-based Augmented Reality
+- Git & GitHub Workflow
+
+---
+
+## ⚠️ Note
+
+The AI Art Generator currently demonstrates the user interface and workflow using placeholder data.
+
+Future versions can integrate real AI image generation APIs such as:
 
 - OpenAI DALL·E
 - Stability AI
 - Google Imagen
-- Midjourney API
+- Hugging Face Inference API
 
 ---
 
-# 📱 Browser Support
-
-- ✅ Google Chrome
-- ✅ Microsoft Edge
-- ✅ Firefox
-- ⚠️ Safari (Limited AR Support)
-
----
-
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
 - Real AI Image Generation
 - User Authentication
-- Personal Art Gallery
+- Personal Art Collections
 - Artwork Search
 - Likes & Comments
 - Download Generated Images
 - WebXR Support
 - VR Gallery
 - 3D Artwork Support
-- Cloud Storage
-- Dark Mode
+- Cloud Storage Integration
+- Dark / Light Theme
 
 ---
 
-# 🤝 Contributing
+## 🌐 Browser Support
 
-Contributions are welcome!
+| Browser | Support |
+|----------|---------|
+| Chrome | ✅ |
+| Edge | ✅ |
+| Firefox | ✅ |
+| Safari | ⚠️ Limited AR Support |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
 
 1. Fork this repository
-2. Create a new feature branch
+2. Create a new branch
+
+```bash
+git checkout -b feature-name
+```
+
 3. Commit your changes
-4. Push the branch
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push your branch
+
+```bash
+git push origin feature-name
+```
+
 5. Open a Pull Request
 
 ---
 
-# 💻 Developer
+## 👨‍💻 Developer
 
-## Arpit Tyagi
+# Arpit Tyagi
 
 **Aspiring Full Stack MERN Developer | Future AI/ML Engineer**
 
-Passionate about building modern web applications, AI-powered products, immersive web experiences, and scalable full-stack applications using **React, Next.js, Node.js, MongoDB, Express, and emerging AI technologies.**
+I enjoy building modern web applications, exploring AI-powered products, and creating immersive user experiences with React and JavaScript while continuously learning new technologies.
 
-### 🌐 Connect with Me
+### Connect with Me
 
-- **GitHub:** https://github.com/Arpit-tyagi001
-- **LinkedIn:** https://www.linkedin.com/in/arpit-tyagi1000/
-
----
-
-# ⭐ Show Your Support
-
-If you like this project, please consider giving it a ⭐ on GitHub.
-
-It helps motivate me to build more open-source projects.
+- GitHub: https://github.com/Arpit-tyagi001
+- LinkedIn: https://www.linkedin.com/in/arpit-tyagi1000/
 
 ---
 
-# 📄 License
+## ⭐ Support
 
-This project is open-source and available for educational and learning purposes.
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+It motivates me to continue building and sharing more open-source projects.
 
 ---
 
-**Made with ❤️ by Arpit Tyagi**
+## 📄 License
+
+This project is licensed for educational and learning purposes.
+
+---
+
+Made with ❤️ by **Arpit Tyagi**
