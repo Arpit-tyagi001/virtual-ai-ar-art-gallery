@@ -16,9 +16,9 @@ Users can browse digital artwork, generate AI-inspired images using prompts, and
 
 # 🌐 Live Demo
 
-### 🔗 https://virtual-ai-ar-art-gallery.vercel.app
+### 🔗 https://virtual-ai-ar-art-gallery.vercel.app/
 
-> *(Replace this link with your deployed website.)*
+
 
 ---
 
